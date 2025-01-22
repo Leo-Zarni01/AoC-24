@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 use crate::{number_utils, part1};
 
+/// Executes Part 2 logic and prints the result.
 pub fn execute_part2(path: &str) -> i32 {
     let input_file = "input.txt";
     let pairs = part1::execute_part1(input_file);
